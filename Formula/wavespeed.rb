@@ -1,8 +1,8 @@
 class Wavespeed < Formula
   desc "CLI for WaveSpeed AI: generate images, video, audio, and 3D from the terminal"
   homepage "https://wavespeed.ai"
-  url "https://registry.npmjs.org/@wavespeed/cli/-/cli-0.4.7.tgz"
-  sha256 "8d667a1d21d146eb0b41bf9598c607fa8ebd984015e9a885ab5dd50d32e0dfc3"
+  url "https://registry.npmjs.org/@wavespeed/cli/-/cli-0.4.8.tgz"
+  sha256 "cd66f6d0f948d1f266ae913b007ce469f238ab129eee09c76a9f95fc0005b659"
   license "MIT"
 
   depends_on "node"
