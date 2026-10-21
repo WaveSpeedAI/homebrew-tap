@@ -1,29 +1,29 @@
 class Wavespeed < Formula
   desc "CLI for WaveSpeed AI: generate images, video, audio, and 3D from the terminal"
   homepage "https://wavespeed.ai"
-  version "0.4.19"
+  version "0.4.20"
   license "MIT"
 
   # Standalone executables from the CLI's GitHub Releases: no Node.js needed.
   on_macos do
     on_arm do
-      url "https://github.com/WaveSpeedAI/wavespeed-cli/releases/download/v0.4.19/wavespeed-darwin-arm64"
-      sha256 "668ea88f24b7bb7add2b755e71db80e685c7b2fb1a83cb79ab20dc122217a166"
+      url "https://github.com/WaveSpeedAI/wavespeed-cli/releases/download/v0.4.20/wavespeed-darwin-arm64"
+      sha256 "48b4824ee64af7f7e15c8fe9ad6153f186ac9b06253549155494d40b624b4fa6"
     end
     on_intel do
-      url "https://github.com/WaveSpeedAI/wavespeed-cli/releases/download/v0.4.19/wavespeed-darwin-x64"
-      sha256 "82822249db8397ac5b835f115b1f1fdb3e97b67ab222d8cd4333631e825c0355"
+      url "https://github.com/WaveSpeedAI/wavespeed-cli/releases/download/v0.4.20/wavespeed-darwin-x64"
+      sha256 "695fc6254a03d3e576b7eb89deaac29271a59cb77fa21dfc406174f39c0aff6d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/WaveSpeedAI/wavespeed-cli/releases/download/v0.4.19/wavespeed-linux-arm64"
-      sha256 "c4eafbfaaf6df5c8e3a225fd33e30e6712b75cca3f144c9ed3c71aba0ab7d2c0"
+      url "https://github.com/WaveSpeedAI/wavespeed-cli/releases/download/v0.4.20/wavespeed-linux-arm64"
+      sha256 "f9e0154d94773cbfcd43e5791f7fbf71d90046d523412451f8170639af5f75c0"
     end
     on_intel do
-      url "https://github.com/WaveSpeedAI/wavespeed-cli/releases/download/v0.4.19/wavespeed-linux-x64"
-      sha256 "d8a130934d0b038d1b7fd1ee67ccbab7b333fe159c03138fde57e2b276fac766"
+      url "https://github.com/WaveSpeedAI/wavespeed-cli/releases/download/v0.4.20/wavespeed-linux-x64"
+      sha256 "83a1a89772278a45e7b5321d84783a2d184f41d346d7f0715b1d9845752f1952"
     end
   end
 
