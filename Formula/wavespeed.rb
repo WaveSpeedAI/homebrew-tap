@@ -1,7 +1,6 @@
 class Wavespeed < Formula
   desc "CLI for WaveSpeed AI: generate images, video, audio, and 3D from the terminal"
   homepage "https://wavespeed.ai"
-  version "0.4.24"
   license "MIT"
 
   # Standalone executables from the CLI's GitHub Releases: no Node.js needed.
