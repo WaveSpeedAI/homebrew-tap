@@ -6,23 +6,23 @@ class Wavespeed < Formula
   # Standalone executables from the CLI's GitHub Releases: no Node.js needed.
   on_macos do
     on_arm do
-      url "https://github.com/WaveSpeedAI/wavespeed-cli/releases/download/v0.4.24/wavespeed-darwin-arm64"
-      sha256 "d9673c67776a48fa5bd0021a01844e4bb74a458848021388166944d023e1418a"
+      url "https://github.com/WaveSpeedAI/wavespeed-cli/releases/download/v0.4.25/wavespeed-darwin-arm64"
+      sha256 "f9c45afda26caff62ad4d3a7988823c7359a27384d4d9a339d4768bbc993b291"
     end
     on_intel do
-      url "https://github.com/WaveSpeedAI/wavespeed-cli/releases/download/v0.4.24/wavespeed-darwin-x64"
-      sha256 "5ab1e1278322735142825fcf7dbac504ff579372e93f1c93a6ae6e7b54702535"
+      url "https://github.com/WaveSpeedAI/wavespeed-cli/releases/download/v0.4.25/wavespeed-darwin-x64"
+      sha256 "80e429692ecde2b112de04fe80856049f9963495402ce899b38148741be5f079"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/WaveSpeedAI/wavespeed-cli/releases/download/v0.4.24/wavespeed-linux-arm64"
-      sha256 "7f0cfa50ab1fe18e3ca59dbc915c84ccba402dab9c0d93a48070fa34d470cc92"
+      url "https://github.com/WaveSpeedAI/wavespeed-cli/releases/download/v0.4.25/wavespeed-linux-arm64"
+      sha256 "50292b86be010c5627c44356d007fa69a1348c7bd9ba74dacff6df217933fc01"
     end
     on_intel do
-      url "https://github.com/WaveSpeedAI/wavespeed-cli/releases/download/v0.4.24/wavespeed-linux-x64"
-      sha256 "5f1db4f416a594e43873e38c6bbdf7a3eb6f0116eb8120b2585710bc0067c03b"
+      url "https://github.com/WaveSpeedAI/wavespeed-cli/releases/download/v0.4.25/wavespeed-linux-x64"
+      sha256 "271137937cfb464281ae758d5da8ae5194beb8205c6ec9166a0b58a1303e5c6e"
     end
   end
 
